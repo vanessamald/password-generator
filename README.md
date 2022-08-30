@@ -2,9 +2,10 @@
 ## Description
 A simple password generator using JavaScript and HMTL.
 ## Table of Contents
-[User Story](#user-story)
-[Acceptance Criteria](#acceptance-criteria)
-[Usage](#usage)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Usage](#usage)
+- [Questions](#questions)
 
 ## User Story
 - AS AN employee with access to sensitive data
