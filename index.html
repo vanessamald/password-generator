@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <!-- 
-    <div id="random-password">
-        <input type="text" id="password" /> <button id="copy">Copy</button>
-        <div id="settings">
-          <label for="length">Length</label>
-          <input type="number" id="length" value="16" min="8" max="64" />    
-          <label for="numbers">Include Numbers</label>
-          <input type="checkbox" id="numbers" checked />
-          <label for="symbols">Include Symbols</label>
-          <input type="checkbox" id="symbols" checked />
+    <div class="card text-center">
+        <div class="card-header">
+            <div class="card-body">
+                <h1 class="card-title" id="name"></h1>
+                <p id="password" class="card-text">  
+                </p>
+                <div id="alert">
+
+                </div>
+                <button onClick="copy()" id="copy" class="btn btn-primary">Copy</button>
+            </div>
+          <div class="card-footer text-muted">
+
+          </div>
         </div>
-        <button id="generate">Generate Password</button>
-      </div>
-    -->
-    <div>
-        <h1>Your Password</h1>
-        <p id="password">
-            HELLO
-        </p>
     </div>
-      <script src="./index.js"></script>
+      <script src="./script.js"></script> 
+      
 </body>
 </html>
