@@ -70,13 +70,12 @@ for (var i = 0; i < length; i++) {
             password += alpha.charAt(Math.floor(Math.random() * alpha.length));
         }
         if (i == length + 1) {break}
-        //console.log(password);
    
         // generate new password and add password + name to text field
         var newPassword = password.slice(-allowed);
         document.getElementById("password").innerHTML = newPassword;
-        document.getElementById("name").innerHTML = welcome.toUpperCase() + "'s password is: ";
-        console.log(newPassword);
+        document.getElementById("name").innerHTML = welcome.toUpperCase() + "'s password: ";
+        //console.log(newPassword);
         } 
     };
 }
